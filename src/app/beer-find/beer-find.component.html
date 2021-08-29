@@ -1,0 +1,11 @@
+<p>beer-find works!</p>
+<h2>Start logging your beer finds here: </h2>
+<form #beerFindForm="ngForm" (ngSubmit)="getValues(beerFindForm.value)">
+  <input type="text" ngModel name="beer" placeholder="Enter beer find">
+  <br><br>
+  <input type="text" ngModel name="where" placeholder="Enter where">
+  <br><br>
+  <input type="text" ngModel name="date" placeholder="Enter date">
+  <br><br>
+  <button> Submit </button>
+</form>
