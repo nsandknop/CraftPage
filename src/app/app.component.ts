@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'craftPage';
+  getValues(val){
+    console.warn(val)
+  }
+  
 }
